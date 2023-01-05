@@ -46,7 +46,7 @@ export class ApiGatewayStack extends Stack {
 
     // Instance
     const instance = new Instance(this, "BastionHost", {
-      instanceType: new InstanceType("t3.nano"),
+      instanceType: new InstanceType("t2.micro"),
       machineImage: amz_linux,
       vpc: consumerVpc,
       securityGroup: bastionSecGrp,
