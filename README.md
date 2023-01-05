@@ -131,3 +131,8 @@ ApiGatewayStack.RatingsService = https://xxxxxxxxxx.execute-api.us-west-2.amazon
 Stack ARN:
 arn:aws:cloudformation:us-west-2:<aws_acc_id>:stack/ApiGatewayStack/<uuid>
 ```
+
+### Testing Your Application
+* You can access items and ratings services at the following: 
+  * https://xxxxxxxxxx.execute-api.us-west-2.amazonaws.com/api/items
+  * https://xxxxxxxxxx.execute-api.us-west-2.amazonaws.com/api/ratings
