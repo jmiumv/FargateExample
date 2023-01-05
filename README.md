@@ -12,7 +12,9 @@
 Broadly:
 * Two NodeJs microservices using AWS Fargate within a VPC we define.
 * An application load balancer.
-* AWS API Gateway integration backed by AWS Private Link. 
+* AWS API Gateway integration backed by AWS Private Link.
+
+_Note: I have deployed this application to `us-west-2` region. As such, the readme lists example outputs and commands for `us-west-2`. If you would like to deploy this to any other region, alter the commands appropriately, update and replace code references from `us-west-2` to your desired region._
 
 
 ### Instructions
@@ -135,3 +137,7 @@ arn:aws:cloudformation:us-west-2:<aws_acc_id>:stack/ApiGatewayStack/<uuid>
 * You can access items and ratings services at the following: 
   * https://xxxxxxxxxx.execute-api.us-west-2.amazonaws.com/api/items
   * https://xxxxxxxxxx.execute-api.us-west-2.amazonaws.com/api/ratings
+
+### To-Do
+- [ ] Update readme with dir structure and references
+- [ ] Update architecture diagram
