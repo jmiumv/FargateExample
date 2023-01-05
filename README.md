@@ -1,5 +1,4 @@
-## Fargate Example
----
+# Fargate Example
 
 ### What is this application about ?
 * An example to setup microservices using fargate. We are going to setup two microservices: 
@@ -22,7 +21,7 @@ Broadly:
 * You have your favorite IDE installed for exploring code. ([IntelliJ](https://www.jetbrains.com/idea/) or [VSCode](https://code.visualstudio.com))
 * You have node and npm installed. I highly encourage using [nvm](https://github.com/nvm-sh/nvm) for easy management of node versions. 
 * You have installed and configured `aws-cdk`. If not you can find the configuration instructions [here](https://docs.aws.amazon.com/cdk/v2/guide/getting_started.html).
-* You have installed and configured `aws-cli`. If not you can find the instructions [here]()
+* You have installed and configured `aws-cli`. If not you can find the instructions [here](https://docs.aws.amazon.com/cli/latest/userguide/getting-started-install.html)
 * You have [docker](https://www.docker.com) installed, up and running.
 
 

@@ -109,3 +109,8 @@ cdk.out/
 # js artifacts
 *.js
 *.d.ts
+
+# General Junk
+.DS_Store
+.AppleDouble
+.LSOverride
